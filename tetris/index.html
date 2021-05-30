@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>てとりす</title>
+    <!-- スタイル -->
+    <style>
+        body {
+            width: 50%;
+            margin: 10px auto;
+            text-align: center;
+        }
+        /* スタートボタン */
+        #start_button {
+            width: 150px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 20px;
+            background: rgb(9, 100, 160);
+            color: white;
+            /* color: rgb(66, 52, 255); */
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+        }
+        /* キャンバススタイル */
+        #canvas {
+            background-color: rgb(18, 18, 18);
+        }
+    </style>
+</head>
+<body>
+    <!-- キャンバス設置 -->
+    <canvas id="canvas" width="400" height="500"></canvas>
+    <!-- ゲーム開始ボタン -->
+    <p id="start_button">START</p>
+    <!-- JSファイル読み込み -->
+    <script src="main.js"></script>
+</body>
+</html>
